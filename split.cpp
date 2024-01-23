@@ -14,11 +14,8 @@ the function below should be the only one in this file.
 using namespace std;
 #include <cstddef>
 
-/* Add a prototype for a helper function here if you need */
-
 void split(Node*& in, Node*& odds, Node*& evens)
 {
-  /* Add code here */
   if (in == NULL){
     return;
   }
@@ -36,5 +33,3 @@ void split(Node*& in, Node*& odds, Node*& evens)
 
   in = NULL;
 }
-
-/* If you needed a helper function, write it here */

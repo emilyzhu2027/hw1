@@ -24,7 +24,7 @@ int main(int argc, char* argv[])
     Node* three = NULL;
     Node* four = NULL;
 
-    // Evens and odds
+    // TESTCASE1:Evens and odds
     one = new Node(1, NULL);
     two = new Node(2, NULL);
     three = new Node(3, NULL);
@@ -56,7 +56,7 @@ int main(int argc, char* argv[])
     }
     cout << endl;
 
-    // Just evens
+    // TESTCASE2:Just evens
 
     one->value = 2;
     two->value = 2;
@@ -89,7 +89,7 @@ int main(int argc, char* argv[])
     }
     cout << endl;
 
-    // Just odds
+    // TESTCASE3:Just odds
 
     one->value = 3;
     two->value = 3;
